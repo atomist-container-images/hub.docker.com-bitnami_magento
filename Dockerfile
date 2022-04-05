@@ -1,12 +1,24 @@
-# Tags: latest, 2.4.3-debian-10-r164, 2.4.3, 2-debian-10, 2
+# Tags: latest, 2.4.3-debian-10-r168, 2.4.3, 2-debian-10, 2
 FROM bitnami/magento:latest
-FROM bitnami/magento:2.4.3-debian-10-r164
+FROM bitnami/magento:2.4.3-debian-10-r168
 FROM bitnami/magento:2.4.3
 FROM bitnami/magento:2-debian-10
 FROM bitnami/magento:2
 
 # Tags: _
 FROM bitnami/magento:_
+
+# Tags: 2.4.3-debian-10-r167
+FROM bitnami/magento:2.4.3-debian-10-r167
+
+# Tags: 2.4.3-debian-10-r166
+FROM bitnami/magento:2.4.3-debian-10-r166
+
+# Tags: 2.4.3-debian-10-r165
+FROM bitnami/magento:2.4.3-debian-10-r165
+
+# Tags: 2.4.3-debian-10-r164
+FROM bitnami/magento:2.4.3-debian-10-r164
 
 # Tags: 2.4.3-debian-10-r163
 FROM bitnami/magento:2.4.3-debian-10-r163
@@ -76,18 +88,3 @@ FROM bitnami/magento:2.4.3-debian-10-r142
 
 # Tags: 2.4.3-debian-10-r141
 FROM bitnami/magento:2.4.3-debian-10-r141
-
-# Tags: 2.4.3-debian-10-r140
-FROM bitnami/magento:2.4.3-debian-10-r140
-
-# Tags: 2.4.3-debian-10-r139
-FROM bitnami/magento:2.4.3-debian-10-r139
-
-# Tags: 2.4.3-debian-10-r138
-FROM bitnami/magento:2.4.3-debian-10-r138
-
-# Tags: 2.4.3-debian-10-r137
-FROM bitnami/magento:2.4.3-debian-10-r137
-
-# Tags: 2.4.3-debian-10-r136
-FROM bitnami/magento:2.4.3-debian-10-r136
